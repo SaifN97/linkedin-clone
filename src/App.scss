@@ -4,5 +4,8 @@
   flex-direction: column;
   &__body {
     display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin-inline: 20px;
   }
 }
