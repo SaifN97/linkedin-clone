@@ -57,6 +57,7 @@ const Feed = () => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               type="text"
+              placeholder="Start a post"
             />
             <button onClick={sendPost} type="submit">
               Send
